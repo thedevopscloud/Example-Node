@@ -36,6 +36,7 @@ thedevopscloud/Example-Node:
   PostInstall:
     - echo "Begin PostInstall"
     - echo "alsdfjadslkfjadsklfjaklsdfjasldkfjadslkfjasdlkfjaksdlfjalsdkfjkdsfjkdfjkdjfkdjfkdjfladkjfaldskfjadsalsdfjadslkfjadsklfjaklsdfjasldkfjadslkfjasdlkfjaksdlfjalsdkfjkdsfjkdfjkdjfkdjfkdjfladkjfaldskfjadsalsdfjadslkfjadsklfjaklsdfjasldkfjadslkfjasdlkfjaksdlfjalsdkfjkdsfjkdfjkdjfkdjfkdjfladkjfaldskfjadsalsdfjadslkfjadsklfjaklsdfjasldkfjadslkfjasdlkfjaksdlfjalsdkfjkdsfjkdfjkdjfkdjfkdjfladkjfaldskfjadsalsdfjadslkfjadsklfjaklsdfjasldkfjadslkfjasdlkfjaksdlfjalsdkfjkdsfjkdfjkdjfkdjfkdjfladkjfaldskfjads"
+    - npm config set strict-ssl false
     - npm install
 
   Env:
